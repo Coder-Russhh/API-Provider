@@ -1,5 +1,4 @@
 const express = require("express");
-const cors = require("cors")
 const { getItems, getInstaUsers, getChatbotData, getProductsData } = require("../controller/apiController");
 
 const router = express.Router();
